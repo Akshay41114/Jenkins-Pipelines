@@ -7,11 +7,11 @@ stages {
 			stage	('Stage-1')
 			{
 				steps{
-				echo "Welcome to Young Minds!"
+				echo "Welcome to Young Minds!!"
 				sleep 5
 				}
 			}	
-			stage	('Stage-2')
+			stage ('Stage-2')
 			{
 				steps{
 				echo "Keep Learning!!"
