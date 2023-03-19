@@ -29,14 +29,14 @@ stages {
 
 		}
 	}
-	stage(Sequential-1)
+	stage('Sequential-1')
 	{
 	  steps {
 		echo "This is sequential stage 1."
 	  }
 	}
 	
-	stage(Sequential-2)
+	stage('Sequential-2')
 	{
 	  steps {
 		echo "This is sequential stage 2."
